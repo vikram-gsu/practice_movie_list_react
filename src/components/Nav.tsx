@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 
 const NavStyles = styled.div`
+    grid-area:header;
     display: flex;
 `;
 

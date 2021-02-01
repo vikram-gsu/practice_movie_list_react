@@ -8,19 +8,23 @@ const CardStyles = styled.div`
  background-color: #eee;
  /* width: 15%; */
  margin: 0.2em;
+ height: 60vh;
+ 
 `;
 const CardPicture = styled.div`
-    width: 100%;
+    
     img {
         width: 100%;
-        /* height: 10em; */
+        height: 40vh;
     }
     /* height: 3em; */
 `;
 
 const CardContent = styled.div`
-padding: 1em;
-text-align: left;
+    padding: 1em;
+    flex-grow:4;
+    text-align: left;
+    overflow: auto;
 `;
 export interface CardProps {
     movie: Movie
